@@ -1,0 +1,204 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.logo{
+	color: lightblue;
+    font-size: 15px;
+    font-family: initial;
+    padding-left: 5px;
+    float: left;
+    padding-top: 5px;
+    margin-top: 10px
+}
+}
+.navbar{
+	display: flex;
+	padding: 30px;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul{
+	display: inline-block;
+	list-style-type: none;
+	font-size: 25px;
+	padding-top: 30px;
+	padding-right: 10px;
+	color: white;
+}
+nav ul li{
+	display: inline-block;
+	margin-right: 20px;
+	padding-top:35px;
+	font-size: 20px
+	color:white;
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+ul li a:hover{
+    color: black;
+}
+header img{
+	width: 200px;
+	height: auto;
+	padding-top: 10px;
+   padding-left: 50px;
+   color: Blue;
+
+}
+.logo p{
+   padding-left: 50px;
+   font-size: 20px;
+   color: White;
+}
+h1{
+	padding-top: 200px;
+   font-size: 50px;
+	color: White;
+
+}
+.menu{
+	width:100%;
+	background: linear-gradient(to top, rgba(0,0,0,0.6)50%,rgba(0,0,0,0.6)50%), url();
+	background-position: center;
+    background-size: cover;
+    height:90vh;
+    background: darkred;
+
+
+}
+logo h1{
+	font-size: 100px;
+}
+body{
+	background: black;
+}
+.good h1{
+	color:White;
+	padding-left: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
+.good img{
+	width: 50%;
+	height: 50%;
+	padding-left: 200px;
+	padding-top: 200px;
+}
+.lolo h1{
+	color: Yellow;
+	border-style: outset;
+	border-width: 5px;
+	border-color: gold;
+	border-radius: 10px;
+	padding: 5px;
+}
+.lolo p{
+	color: yellow;
+}
+.lado h1{
+	color: yellow;
+	border-style: outset;
+	border-width: 5px;
+	border-color: gold;
+	border-radius: 10px;
+	padding: 5px;
+
+}
+.lado p{
+	color: yellow;
+}
+.lado h2{
+	color: Darkblue;
+	text-align: center;
+	border-style: outset;
+	border-width: 5px;
+	border-color: black;
+	border-radius: 10px;
+	padding: 5px;
+	font-size: 15px;
+
+}
+.lado h3{
+	color: black;
+	text-align: center;
+}
+.lado p1{
+	color: black;
+
+}
+.pagle h1{
+	color: yellow;
+	border-style: outset;
+	border-width: 5px;
+	border-color: gold;
+	border-radius: 10px;
+	padding: 5px;
+}
+.pagle p{
+	color: yellow;
+	border-style: outset;
+	border-width: 5px;
+	border-color: gold;
+	border-radius: 10px;
+	padding: 5px;
+}
+.pagle h2{
+	color: White;
+	font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'REM', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+footer{
+	padding: 20px;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: left;
+	background: lightgrey;
+
+}
+.lali h1{
+	font-size: 30px;
+	padding: 20px;
+	font-weight: bold;
+	text-align: left;
+	background: yellow;
+    text-align: center;
+    color: black;
+
+}
+.lali h3{
+	color: black;
+}
+.qaqa img{
+	height: 10vh;
+}
+.qaqa p{
+	font-size: 20px;
+	text-align: center;
+	color: brown;
+	border-style: outset;
+	border-width: 5px;
+	border-color: black;
+	border-radius: 10px;
+	padding: 5px;
+
+
+}
+.qaqa h4{
+	color: brown;
+	font-size: 30px;
+
+}
+.qaqa h2{
+	color: brown;
+}
+.qaqa p1{
+	font-size: 15px;
+
+}
