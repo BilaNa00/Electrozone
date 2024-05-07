@@ -1,320 +1,104 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Electro Zone</title>
-    <link rel="stylesheet" type="text/css" href="Style.css">
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
-    <link https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css>
-
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./home/style.css">
+  <title>My Company</title>
 </head>
 
 <body>
-    <div class="menu">
-        <div class="navbar">
-            <div class="logo">
-                <header>
-                    <img src="C:\Users\lenovo\Downloads\file.png">
-                </header>
-                <p>Innoviation.Experience.Customiaztion</p>
-            </div>
+  <!-- nav start -->
 
-            <nav>
-                <ul>
-                    <li><a href="file:///C:/Users/Track%20Computers/Documents/Home/index.html">Home</a></li>
-                    <li><a href="file:///C:/Users/Track%20Computers/Documents/product/index.html">Products</a></li>
-                    <li><a href="C:\Users\Track Computers\Desktop\about\index.html">About</a></li>
-                    <li><a href="file:///C:/Users/Track%20Computers/Desktop/nono/index.html">Contact</a></li>
-                </ul>
-            </nav>
+
+  <nav class="bg-white border-gray-200 dark:bg-gray-900">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
+        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+      </a>
+      <div class="flex md:order-2">
+        <button type="button" data-collapse-toggle="navbar-search" aria-controls="navbar-search" aria-expanded="false"
+          class="md:hidden text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 me-1">
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
+          </svg>
+          <span class="sr-only">Search</span>
+        </button>
+        <div class="relative hidden md:block">
+          <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+            <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+              fill="none" viewBox="0 0 20 20">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
+            </svg>
+            <span class="sr-only">Search icon</span>
+          </div>
+          <input type="text" id="search-navbar"
+            class="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            placeholder="Search...">
         </div>
-
-
-        <div class="good">
-            <h1>INNOVIATION<br> EXPERIENCE <br>CUSTOMIZATION</h1>
+        <button data-collapse-toggle="navbar-search" type="button"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          aria-controls="navbar-search" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15" />
+          </svg>
+        </button>
+      </div>
+      <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-search">
+        <div class="relative mt-3 md:hidden">
+          <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+            <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+              fill="none" viewBox="0 0 20 20">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
+            </svg>
+          </div>
+          <input type="text" id="search-navbar"
+            class="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            placeholder="Search...">
         </div>
+        <ul
+          class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <li>
+            <a href="./index.html"
+              class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+              aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="./about/about.html"
+              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+          </li>
+          <li>
+            <a href="./services/services.html"
+              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-
-
-        <section class="lolo">
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-                <div
-                    class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Providing a Range Of
-                        <br>Commerical & Resdential<br> Products
-                    </h1>
-                    <p class="mb-8 leading-relaxed">EZ is one of Pakistan’s fastest growing electrical items
-                        manufacturer and exporter.we have won good reputation from our long-standing clients by
-                        providing them with superior quality products at competitive prices. Our rich experience, strong
-                        technical background and skilled man power ensures complete customer satisfaction.</p>
-
-                </div>
-                <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                    <img class="object-cover object-center rounded" alt="hero"
-                        src="F:\Webside\3 Pin Flush Socket 10A.jpg">
-                </div>
-            </div>
-        </section>
-
-
-
-        <section class="lado">
-            <div class="container px-5 py-24 mx-auto">
-                <div class="flex flex-col text-center w-full mb-20">
-                    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">All Poducts Items </h1>
-                    <p class="lg:w-2/3 mx-auto leading-relaxed text-base">At Nadeem Naeem Company, we offer a wide range
-                        of high-quality products designed to meet your [industry/sector] needs. Our comprehensive
-                        product portfolio includes state-of-the-art [product category] that are built with precision and
-                        innovation. Whether you're looking for [specific product], [specific product], or [specific
-                        product], we have the perfect solution to enhance your operations. Our products are crafted with
-                        the latest technology, ensuring superior performance, reliability, and durability. Trust Nadeem
-                        Naeem Company to provide you with cutting-edge products that elevate your business to new
-                        heights."</p>
-                </div>
-                <div class="flex flex-wrap -m-4">
-                    <div class="lg:w-1/3 sm:w-1/2 p-4">
-                        <div class="flex relative">
-                            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                src="F:\Webside\EZ One Ten Shoe Final.JPG">
-                            <div
-                                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                                <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Electro
-                                    Zone</h2>
-                                <h3 class="title-font text-lg font-medium text-gray-900 mb-3">One Ten Shoe</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:w-1/3 sm:w-1/2 p-4">
-                        <div class="flex relative">
-                            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                src="F:\Webside\Generator Shoe.JPG">
-                            <div
-                                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                                <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Electro
-                                    Zone</h2>
-                                <h3 class="title-font text-lg font-medium text-gray-900 mb-3">Generator shoe</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:w-1/3 sm:w-1/2 p-4">
-                        <div class="flex relative">
-                            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                src="F:\Webside\Mail Female Safety.jpg">
-                            <div
-                                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                                <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Electro
-                                    Zone</h2>
-                                <h3 class="title-font text-lg font-medium text-gray-900 mb-3">Mail Femal Saftey</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:w-1/3 sm:w-1/2 p-4">
-                        <div class="flex relative">
-                            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                src="F:\Webside\Male Female Bakelite.JPG">
-                            <div
-                                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                                <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Electro
-                                    ZOne</h2>
-                                <h3 class="title-font text-lg font-medium text-gray-900 mb-3">Male Female Bakelite</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:w-1/3 sm:w-1/2 p-4">
-                        <div class="flex relative">
-                            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                src="F:\Webside\Multi Plug Old.jpg">
-                            <div
-                                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                                <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Electro
-                                    Zone</h2>
-                                <h3 class="title-font text-lg font-medium text-gray-900 mb-3">Multi Plug</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:w-1/3 sm:w-1/2 p-4">
-                        <div class="flex relative">
-                            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                src="F:\Webside\Three Pin Plug 10A. 1.jpg">
-                            <div
-                                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                                <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Electro
-                                    Zone</h2>
-                                <h3 class="title-font text-lg font-medium text-gray-900 mb-3">Three Pin plug</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="text-gray-600 body-font">
-            <div class="lali">
-                <h1>Terminal Blocks Lists (Wire Connecter) </h1>
-                <div class="container px-5 py-24 mx-auto">
-                    <div class="flex flex-col text-center w-full mb-20">
-                        <div class="flex flex-wrap -m-4">
-                            <div class="lg:w-1/3 sm:w-1/2 p-4">
-                                <div class="flex relative">
-                                    <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                        src="F:\Webside\6 Amp.JPG">
-                                    <div
-                                        class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                                        <h1 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
-                                            Terminal Blocks</h1>
-                                        <h3 class="title-font text-lg font-medium text-gray-900 mb-3"><strong>. 6
-                                                Amp<br>. Pieces-50<br>. 380 Volts<br>. Size 2.5mm</strong></h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="lg:w-1/3 sm:w-1/2 p-4">
-                                <div class="flex relative">
-                                    <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                        src="F:\Webside\10 Amp.JPG">
-                                    <div
-                                        class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                                        <h1 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
-                                            Terminal Blocks</h>
-                                            <h3 class="title-font text-lg font-medium text-gray-900 mb-3"><strong>.10
-                                                    Amp<br>.Pieces-50<br>.380 Volts<br>.Size 4mm</strong></h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="lg:w-1/3 sm:w-1/2 p-4">
-                                <div class="flex relative">
-                                    <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                        src="F:\Webside\15 Amp.JPG">
-                                    <div
-                                        class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                                        <h1 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
-                                            Terminal Blocks</h1>
-                                        <h3 class="title-font text-lg font-medium text-gray-900 mb-3">
-                                            <storng>.15 Amp<br>.Pieces-20<br>.380 Volts<br>.Size 6mm</storng>
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="lg:w-1/3 sm:w-1/2 p-4">
-                                <div class="flex relative">
-                                    <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                        src="F:\Webside\30 Amp.jpg">
-                                    <div
-                                        class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                                        <h1 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
-                                            Terminal Blocks</h1>
-                                        <h3 class="title-font text-lg font-medium text-gray-900 mb-3"><strong>.30
-                                                Amp<br>.Pieces-10<br>.380 Volts<br>.Size 4-10mm</strong></h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="lg:w-1/3 sm:w-1/2 p-4">
-                                <div class="flex relative">
-                                    <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                        src="F:\Webside\60 Amp.JPG">
-                                    <div
-                                        class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                                        <h1 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
-                                            Terminal Blocks</h1>
-                                        <h3 class="title-font text-lg font-medium text-gray-900 mb-3"><strong>.60
-                                                Amp<br>.Pieces-10<br>.500 Volts<br>.Size 16-25mm</strong></h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="lg:w-1/3 sm:w-1/2 p-4">
-                                <div class="flex relative">
-                                    <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                        src="F:\Webside\100 Amp.JPG">
-                                    <div
-                                        class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                                        <h1 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
-                                            Terminal Blocks</h1>
-                                        <h3 class="title-font text-lg font-medium text-gray-900 mb-3"><strong>.100
-                                                Amp<br>.Pieces-5<br>.500 Volts<br>.Size 25-50mm</strong></h3>
-                                    </div>
-                                </div>
-                            </div>
-        </section>
-
-
-
-        <section class="pagle">
-            <div class="container px-5 py-24 mx-auto">
-                <div class="flex flex-col text-center w-full mb-20">
-                    <h1 class="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">OUR TEAM</h1>
-                    <p class="lg:w-2/3 mx-auto leading-relaxed text-base">At EZ Team, we make excellence look
-                        effortless! With a winning combination of talent, creativity, and a can-do attitude, we tackle
-                        every challenge head-on and deliver outstanding results. Our commitment to making things easy
-                        for our clients sets us apart, ensuring smooth experiences and remarkable outcomes. Join us in
-                        embracing the "EZ" way as we work together, achieve greatness, and make a positive impact on the
-                        world. Let's make the complex simple and turn dreams into reality. Welcome to the EZ Team!</p>
-                </div>
-                <div class="flex flex-wrap -m-4">
-                    <div class="p-4 lg:w-1/2">
-                        <div
-                            class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                            <div class="flex-grow sm:pl-8">
-                                <h2 class="title-font font-medium text-lg text-gray-900">Naeem ul Hassan</h2>
-                                <h2 class="text-gray-500 mb-3">Enginer</h2>
-                                <br>
-                                <p class="mb-4">Contact with us ......... 03009478149</p>
-                                <span class="inline-flex">
-
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="p-4 lg:w-1/2">
-                        <div
-                            class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                            <div class="flex-grow sm:pl-8">
-                                <h2 class="title-font font-medium text-lg text-gray-900">Nadeem ul Hassan</h2>
-                                <h2 class="text-gray-500 mb-3">Enginer</h2>
-                                <br>
-                                <p class="mb-4">Contact with us .. 03334294646</p>
-                                <span class="inline-flex">
-
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-        </section>
-
-
-        <footer>
-            <div class="qaqa">
-                <img src="C:\Users\Track Computers\Downloads\EZ_logo-removebg-preview (1).png">
-                <p1>Innoviation.Experience.Customiaztion</p1>
-                <h4>Our Company</h4>
-                <p1>EZ is one of Pakistan’s fastest growing electrical items manufacturer and exporter</p1>
-                <br>
-                <h2>Contact us today</h2>
-                <p1>You can contact us or visit during working hours</p1>
-                <br>
-                <br>
-                <p> Tell : 03254651818</p>
-                <br>
-                <p>Email : naeemrizwan31@gmail.com</p>
-                <br>
-                <p>Address : Lajpat road . shahdara . gali no 6</p>
-
-            </div>
-
-
-        </footer>
-
-
-
-
+  <!-- nav end -->
 </body>
+<div class="transformdesign">
+  <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas eos necessitatibus consequatur, eius aspernatur
+    quae deleniti eaque consequuntur rem in sint placeat molestias. In, expedita!</h1>
+</div>
+<div class="imgstyle">
+  <h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur labore, dicta omnis unde dolor deleniti
+      consequuntur cumque nostrum laudantium, autem voluptatibus magni, ipsum sint dolore beatae architecto corporis.
+      Cumque fugit aspernatur illo unde provident ipsum, totam voluptatem magnam, ea excepturi, aperiam sunt? Quis
+      officia necessitatibus sit, blanditiis eveniet at nostrum?, ipsum dolor sit amet consectetur adipisicing elit.
+      Asperiores illo obcaecati adipisci rerum dolorem accusantium esse perspiciatis tempora perferendis eligendi,
+      numquam unde iusto facilis nihil maiores ratione consequatur voluptatum. Adipisci?</p>
+  </h1>
+</div>
 
 </html>
